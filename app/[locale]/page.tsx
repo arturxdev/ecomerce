@@ -10,6 +10,7 @@ import {
   Utensils,
 } from "lucide-react";
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
 
 import { LocaleSwitcher } from "@/components/locale-switcher";
 import { isLocale, type Locale } from "@/lib/i18n/config";
@@ -69,7 +70,9 @@ export default async function Home({ params }: HomeProps) {
           </nav>
 
           <div className="flex items-center gap-3">
-            <LocaleSwitcher currentLocale={typedLocale} label={m.language.label} />
+            <Suspense fallback={<div className="h-8 w-[92px]" />}>
+              <LocaleSwitcher currentLocale={typedLocale} label={m.language.label} />
+            </Suspense>
             <button className="hidden items-center justify-center rounded-lg bg-primary px-4 py-2 text-sm font-bold text-white shadow-sm transition-all hover:bg-orange-600 sm:flex">
               {m.nav.bookNow}
             </button>
@@ -265,4 +268,3 @@ export default async function Home({ params }: HomeProps) {
     </div>
   );
 }
-
