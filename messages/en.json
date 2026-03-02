@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "title": "Festejos Aurora",
+    "description": "Landing page for party equipment rental ecommerce."
+  },
+  "nav": {
+    "home": "Home",
+    "catalogue": "Catalogue",
+    "about": "About Us",
+    "contact": "Contact",
+    "bookNow": "Book Now"
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "es": "Español"
+  },
+  "hero": {
+    "badge": "Premium Party Equipment",
+    "titleStart": "Make Your Party",
+    "titleHighlight": "Unforgettable",
+    "description": "Premium bounce houses, tables, and chairs for every occasion. We bring the fun, you make the memories.",
+    "primaryCta": "View Catalogue",
+    "secondaryCta": "Contact Support",
+    "trusted": "Trusted by 500+ happy families",
+    "safetyTitle": "Safety Certified",
+    "safetySubtitle": "Inspected Equipment"
+  },
+  "equipment": {
+    "title": "Our Equipment",
+    "description": "Browse our selection of party essentials available for rent.",
+    "filters": {
+      "all": "All Items",
+      "bounce": "Bounce Houses",
+      "tables": "Tables & Chairs",
+      "concessions": "Concessions"
+    }
+  },
+  "products": [
+    {
+      "title": "Royal Castle Bounce House",
+      "subtitle": "Ideal for ages 3-10",
+      "price": "$150/day",
+      "meta": "15' x 15'",
+      "book": "Reserve"
+    },
+    {
+      "title": "Folding Chairs (Set of 10)",
+      "subtitle": "Durable & lightweight",
+      "price": "$25/day",
+      "meta": "10 Pack",
+      "book": "Reserve"
+    },
+    {
+      "title": "Round Banquet Tables",
+      "subtitle": "Seats 8-10 people",
+      "price": "$15/day",
+      "meta": "60\" Round",
+      "book": "Reserve"
+    }
+  ],
+  "cta": {
+    "title": "Planning a big event?",
+    "description": "Contact us for custom packages, large event discounts, and availability for upcoming dates.",
+    "inputPlaceholder": "Enter your email",
+    "button": "Subscribe",
+    "feature1Title": "Delivery & Setup",
+    "feature1Desc": "We handle the heavy lifting. All rentals include setup and takedown.",
+    "feature2Title": "Clean & Sanitized",
+    "feature2Desc": "Every item is cleaned and inspected before delivery."
+  },
+  "footer": {
+    "rights": "© 2026 Festejos Aurora. All rights reserved."
+  }
+}
+
