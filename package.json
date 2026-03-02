@@ -2,15 +2,28 @@
   "name": "ecomerce",
   "version": "0.1.0",
   "private": true,
+  "prisma": {
+    "seed": "node prisma/seed.mjs"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "prisma:generate": "prisma generate --config prisma.config.ts",
+    "prisma:migrate": "prisma migrate dev --config prisma.config.ts",
+    "prisma:migrate:deploy": "prisma migrate deploy --config prisma.config.ts",
+    "prisma:studio": "prisma studio --config prisma.config.ts",
+    "prisma:seed": "prisma db seed --config prisma.config.ts"
   },
   "dependencies": {
+    "@prisma/adapter-pg": "^7.4.2",
+    "@prisma/client": "^7.4.2",
+    "dotenv": "^17.3.1",
     "lucide-react": "^0.576.0",
     "next": "16.1.6",
+    "pg": "^8.19.0",
+    "prisma": "^7.4.2",
     "react": "19.2.3",
     "react-dom": "19.2.3"
   },
