@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useSearchParams } from "next/navigation";
 
 import { type Locale, locales } from "@/lib/i18n/config";
 
@@ -12,13 +12,16 @@ type LocaleSwitcherProps = {
 
 export function LocaleSwitcher({ currentLocale, label }: LocaleSwitcherProps) {
   const pathname = usePathname();
+  const searchParams = useSearchParams();
 
   function localizedPath(targetLocale: Locale): string {
     const segments = pathname.split("/");
     if (segments.length > 1) {
       segments[1] = targetLocale;
     }
-    return segments.join("/") || `/${targetLocale}`;
+    const newPath = segments.join("/") || `/${targetLocale}`;
+    const query = searchParams.toString();
+    return query ? `${newPath}?${query}` : newPath;
   }
 
   return (
@@ -46,4 +49,3 @@ export function LocaleSwitcher({ currentLocale, label }: LocaleSwitcherProps) {
     </div>
   );
 }
-
