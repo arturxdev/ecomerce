@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "title": "Festejos Aurora",
+    "description": "Landing page de ecommerce para renta de equipo de fiesta."
+  },
+  "nav": {
+    "home": "Inicio",
+    "catalogue": "Catálogo",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "bookNow": "Reservar ahora"
+  },
+  "language": {
+    "label": "Idioma",
+    "en": "English",
+    "es": "Español"
+  },
+  "hero": {
+    "badge": "Equipo Premium para Fiestas",
+    "titleStart": "Haz Tu Fiesta",
+    "titleHighlight": "Inolvidable",
+    "description": "Brincolines, mesas y sillas premium para cualquier ocasión. Nosotros llevamos la diversión.",
+    "primaryCta": "Ver catálogo",
+    "secondaryCta": "Contactar soporte",
+    "trusted": "Más de 500 familias felices confían en nosotros",
+    "safetyTitle": "Seguridad Certificada",
+    "safetySubtitle": "Equipo inspeccionado"
+  },
+  "equipment": {
+    "title": "Nuestro Equipo",
+    "description": "Explora nuestra selección de esenciales para tu fiesta.",
+    "filters": {
+      "all": "Todo",
+      "bounce": "Brincolines",
+      "tables": "Mesas y sillas",
+      "concessions": "Concesiones"
+    }
+  },
+  "products": [
+    {
+      "title": "Brincolín Castillo Real",
+      "subtitle": "Ideal para edades 3-10",
+      "price": "$150/día",
+      "meta": "15' x 15'",
+      "book": "Reservar"
+    },
+    {
+      "title": "Sillas plegables (set de 10)",
+      "subtitle": "Resistentes y ligeras",
+      "price": "$25/día",
+      "meta": "Paquete de 10",
+      "book": "Reservar"
+    },
+    {
+      "title": "Mesas redondas para banquete",
+      "subtitle": "Para 8-10 personas",
+      "price": "$15/día",
+      "meta": "60\" redonda",
+      "book": "Reservar"
+    }
+  ],
+  "cta": {
+    "title": "¿Planeando un evento grande?",
+    "description": "Contáctanos para paquetes personalizados, descuentos por volumen y fechas disponibles.",
+    "inputPlaceholder": "Ingresa tu correo",
+    "button": "Suscribirme",
+    "feature1Title": "Entrega e instalación",
+    "feature1Desc": "Nosotros hacemos el trabajo pesado. Incluye instalación y desmontaje.",
+    "feature2Title": "Limpio y sanitizado",
+    "feature2Desc": "Cada artículo se limpia e inspecciona antes de la entrega."
+  },
+  "footer": {
+    "rights": "© 2026 Festejos Aurora. Todos los derechos reservados."
+  }
+}
+
